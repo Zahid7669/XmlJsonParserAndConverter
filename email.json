@@ -1,0 +1,46 @@
+{
+    "emails": [
+        {
+            "title": "Work contract",
+            "daytime": "12.09.2023 10:20",
+            "content": "Hello! I wanted to tell you that you are hired for the position.",
+            "sender": {
+                "name": "Carlos Dou",
+                "email": "Carlos.Dou@apple.com"
+            },
+            "receivers": [
+                {
+                    "name": "Sofiia Charnota",
+                    "email": "Sofiia.Charnota@gmail.com"
+                },
+                {
+                    "name": "Jaume Jaume",
+                    "email": "Jaume.Jaume@gmail.com"
+                }
+            ],
+            "cc": [
+                {
+                    "name": "Rob Joshua",
+                    "email": "rob@apple.com"
+                },
+                {
+                    "name": "Bob Denver",
+                    "email": "bob@apple.com"
+                }
+            ],
+            "bcc": [
+                {
+                    "name": "Lana Parilla",
+                    "email": "lana@disney.com"
+                }
+            ],
+            "links": [
+                "www.docs.com",
+                "www.apple.com"
+            ],
+            "files": [
+                "Contract.pdf"
+            ]
+        }
+    ]
+}

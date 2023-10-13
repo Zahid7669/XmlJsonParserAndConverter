@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+    <email>
+        <title>Work contract</title>
+        <sender>
+            <name>Carlos Dou</name>
+            <email>Carlos.Dou@apple.com</email>
+        </sender>
+        <receivers>
+            <receiver>
+                <name>Sofiia Charnota</name>
+                <email>Sofiia.Charnota@gmail.com</email>
+            </receiver>
+            <receiver>
+                <name>Jaume Jaume</name>
+                <email>Jaume.Jaume@gmail.com</email>
+            </receiver>
+        </receivers>
+        <cc>
+            <recipient>
+                <name>Rob Joshua</name>
+                <email>rob@apple.com</email>
+            </recipient>
+            <recipient>
+                <name>Bob Denver</name>
+                <email>bob@apple.com</email>
+            </recipient>
+        </cc>
+        <bcc>
+            <recipient>
+                <name>Lana Parilla</name>
+                <email>lana@disney.com</email>
+            </recipient>
+        </bcc>
+        <daytime>12.09.2023 10:20</daytime>
+        <content>Hello! I wanted to tell you that you are hired for the position.</content>
+        <links>
+            <link>www.docs.com</link>
+            <link>www.apple.com</link>
+        </links>
+        <files>
+            <file>Contract.pdf</file>
+        </files>
+    </email>
+</emails>
