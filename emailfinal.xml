@@ -1,6 +1,6 @@
 <emails>
 	<email>
-		<title>Work contract</title>
+		<title>Email 1 Subject</title>
 		<sender>
 			<name>Carlos Dou</name>
 			<email>Carlos.Dou@apple.com</email>
@@ -39,6 +39,84 @@
 		</links>
 		<files>
 			<file>Contract.pdf</file>
+		</files>
+	</email>
+	<email>
+		<title>Email 2 Subject</title>
+		<sender>
+			<name>John Doe</name>
+			<email>john.doe@example.com</email>
+		</sender>
+		<receivers>
+			<receiver>
+				<name>Alice Smith</name>
+				<email>alice.smith@example.com</email>
+			</receiver>
+			<receiver>
+				<name>Bob Johnson</name>
+				<email>bob.johnson@example.com</email>
+			</receiver>
+		</receivers>
+		<cc>
+			<recipient>
+				<name>Ella Davis</name>
+				<email>ella.davis@example.com</email>
+			</recipient>
+			<recipient>
+				<name>Frank White</name>
+				<email>frank.white@example.com</email>
+			</recipient>
+		</cc>
+		<bcc>
+			<recipient>
+				<name>Grace Brown</name>
+				<email>grace.brown@example.com</email>
+			</recipient>
+		</bcc>
+		<daytime>15.09.2023 14:30</daytime>
+		<content>Hi there! I have some exciting news to share with you.</content>
+		<links>
+			<link>www.example2.com</link>
+		</links>
+		<files>
+			<file>Attachment2.pdf</file>
+		</files>
+	</email>
+	<email>
+		<title>Email 3 Subject</title>
+		<sender>
+			<name>Mary Johnson</name>
+			<email>mary.johnson@example.com</email>
+		</sender>
+		<receivers>
+			<receiver>
+				<name>David Lee</name>
+				<email>david.lee@example.com</email>
+			</receiver>
+		</receivers>
+		<cc>
+			<recipient>
+				<name>Lisa Wilson</name>
+				<email>lisa.wilson@example.com</email>
+			</recipient>
+			<recipient>
+				<name>Michael Brown</name>
+				<email>michael.brown@example.com</email>
+			</recipient>
+		</cc>
+		<bcc>
+			<recipient>
+				<name>Grace Brown</name>
+				<email>grace.brown@example.com</email>
+			</recipient>
+		</bcc>
+		<daytime>18.09.2023 11:45</daytime>
+		<content>Greetings! I hope you're doing well.</content>
+		<links>
+			<link>www.example3.com</link>
+		</links>
+		<files>
+			<file>Attachment3.pdf</file>
 		</files>
 	</email>
 </emails>

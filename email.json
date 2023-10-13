@@ -1,7 +1,7 @@
 {
     "emails": [
         {
-            "title": "Work contract",
+            "title": "Email 1 Subject",
             "daytime": "12.09.2023 10:20",
             "content": "Hello! I wanted to tell you that you are hired for the position.",
             "sender": {
@@ -40,6 +40,84 @@
             ],
             "files": [
                 "Contract.pdf"
+            ]
+        },
+        {
+            "title": "Email 2 Subject",
+            "daytime": "15.09.2023 14:30",
+            "content": "Hi there! I have some exciting news to share with you.",
+            "sender": {
+                "name": "John Doe",
+                "email": "john.doe@example.com"
+            },
+            "receivers": [
+                {
+                    "name": "Alice Smith",
+                    "email": "alice.smith@example.com"
+                },
+                {
+                    "name": "Bob Johnson",
+                    "email": "bob.johnson@example.com"
+                }
+            ],
+            "cc": [
+                {
+                    "name": "Ella Davis",
+                    "email": "ella.davis@example.com"
+                },
+                {
+                    "name": "Frank White",
+                    "email": "frank.white@example.com"
+                }
+            ],
+            "bcc": [
+                {
+                    "name": "Grace Brown",
+                    "email": "grace.brown@example.com"
+                }
+            ],
+            "links": [
+                "www.example2.com"
+            ],
+            "files": [
+                "Attachment2.pdf"
+            ]
+        },
+        {
+            "title": "Email 3 Subject",
+            "daytime": "18.09.2023 11:45",
+            "content": "Greetings! I hope you're doing well.",
+            "sender": {
+                "name": "Mary Johnson",
+                "email": "mary.johnson@example.com"
+            },
+            "receivers": [
+                {
+                    "name": "David Lee",
+                    "email": "david.lee@example.com"
+                }
+            ],
+            "cc": [
+                {
+                    "name": "Lisa Wilson",
+                    "email": "lisa.wilson@example.com"
+                },
+                {
+                    "name": "Michael Brown",
+                    "email": "michael.brown@example.com"
+                }
+            ],
+            "bcc": [
+                {
+                    "name": "Grace Brown",
+                    "email": "grace.brown@example.com"
+                }
+            ],
+            "links": [
+                "www.example3.com"
+            ],
+            "files": [
+                "Attachment3.pdf"
             ]
         }
     ]

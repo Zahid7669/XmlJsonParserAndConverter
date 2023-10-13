@@ -4,6 +4,10 @@ tree = ET.parse("email.xml")
 root = tree.getroot()
 
 for email in root:
+    print()
+    print('-----EMAIL-----')
+    print()
+    
     sender = email.find('sender')
     sender_name = sender.find('name').text
     sender_email = sender.find('email').text
